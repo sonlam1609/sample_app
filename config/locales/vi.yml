@@ -1,4 +1,6 @@
 vi:
+  helper:
+    base_title: "Ruby on Rails Tutorial Sample App"
   static_page:
     home:
       title: "Home"
