@@ -1,0 +1,16 @@
+client:
+  host: "localhost:3000"
+
+home:
+  link1: "https://www.railstutorial.org/"
+
+about:
+  link1: "https://www.railstutorial.org/"
+  link2: "https://www.learnenough.com/"
+  link3: "https://www.railstutorial.org/book"
+  link4: "https://screencasts.railstutorial.org/"
+  link5: "https://rubyonrails.org/"
+
+help:
+  link1: "https://www.railstutorial.org/help"
+  link2: "https://www.railstutorial.org/book"

@@ -1,14 +1,13 @@
-en:
+vi:
   static_page:
     home:
       title: "Home"
       para1: "Sample App"
       para2: "This is the home page for the"
       para3: "sample application."
-      link1: "Ruby on Rails Tutorial"
-
+      link1: "Ruby on Rails Tutorial" 
     about:
-      title: "About"
+      title: "Ve chung toi"
       para1: "The"
       para2: ", part of the"
       para3: "family of tutorials, is a"
@@ -20,9 +19,9 @@ en:
       link3: "book"
       link4: "screencast series"
       link5: "Ruby on Rails"
-
+    
     help:
-      title: "Help"
+      title: "Tro giup"  
       para1: "Get help on the Ruby on Rails Tutorial at the"
       para2: "To get help on this sample app, see the"
       para3: "book."
@@ -30,4 +29,4 @@ en:
       link2: "Ruby on Rails Tutorial"
 
     english: "English"
-    vietnamese: "Vietnamese"
+    vietnamese: "Vietnamese" 
