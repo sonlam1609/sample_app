@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sampleapp1</title>
+    <title><%= yield(:title) %> | <%= t "static_page.home.link1" %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +11,9 @@
 
   <body>
     <%= yield %>
+    <ul>
+      <li><%= link_to t("english"), locale: "en" %></li>
+      <li><%= link_to t("vietnamese"), locale: "vi" %></li>
+    </ul>
   </body>
 </html>
