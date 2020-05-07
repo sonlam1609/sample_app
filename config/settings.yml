@@ -1,8 +1,13 @@
 client:
   host: "localhost:3000"
+footer:
+  link1: "https://www.railstutorial.org/"
+  link2: "https://www.michaelhartl.com/"
+  link3: "https://news.railstutorial.org/"
 
 home:
   link1: "https://www.railstutorial.org/"
+  link2: "https://rubyonrails.org/"
 
 about:
   link1: "https://www.railstutorial.org/"
@@ -14,3 +19,6 @@ about:
 help:
   link1: "https://www.railstutorial.org/help"
   link2: "https://www.railstutorial.org/book"
+
+contact:
+  link1: "https://www.railstutorial.org/contact"

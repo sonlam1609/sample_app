@@ -1,0 +1,17 @@
+<ul>
+  <li><%= link_to t("english"), locale: "en" %></li>
+  <li><%= link_to t("vietnamese"), locale: "vi" %></li>
+</ul>
+<footer class="footer">
+  <small>
+    <%= link_to t("footer.para1"), Settings.footer.link1 %>
+    <%= link_to t("footer.para2"), Settings.footer.link2 %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_page.about.title"), about_path %></li>
+      <li><%= link_to t("static_page.contact.title"), contact_path %></li>
+      <li><%= link_to t("footer.para3"), Settings.footer.link3 %></li>
+    </ul>
+  </nav>
+</footer>
