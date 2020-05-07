@@ -1,12 +1,19 @@
 vi:
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
+
+  footer:
+    para1: "The Ruby on Rails Tutorial"
+    para2: "by Michael Hartl"
+    para3: "News"
+
   static_page:
     home:
-      title: "Home"
+      title: "Trang chu"
       para1: "Sample App"
       para2: "This is the home page for the"
       para3: "sample application."
+      para4: "Sign up now!"
       link1: "Ruby on Rails Tutorial" 
     about:
       title: "Ve chung toi"
@@ -29,6 +36,17 @@ vi:
       para3: "book."
       link1: "Rails Tutorial Help page."
       link2: "Ruby on Rails Tutorial"
+      
+    contact: 
+      title: "Lien he"
+      para1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      para2: "contact page"
 
+    login:
+      para1: "Log in"
+    user:
+      title: "User"
+      para1: "Find me in app/views/users/new.html.erb"
+      
     english: "English"
     vietnamese: "Vietnamese" 
