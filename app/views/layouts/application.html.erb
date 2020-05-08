@@ -2,15 +2,15 @@
 <html>
   <head>
     <title><%= full_title yield(:title) %></title>
-    <%= render "rails_default" %>
-    <%= render "shim" %>
+    <%= render "layouts/rails_default" %>
+    <%= render "layouts/shim" %>
   </head>
 
   <body>
-    <%= render "header" %>
+    <%= render "layouts/header" %>
     <div class="container">
       <%= yield %>
-      <%= render "footer" %>
+      <%= render "layouts/footer" %>
     </div>
   </body>
 </html>

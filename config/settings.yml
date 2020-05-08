@@ -1,5 +1,12 @@
+reg:
+  email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  maxname: 50
+  maxemail: 255
+  minipass: 6
+
 client:
   host: "localhost:3000"
+
 footer:
   link1: "https://www.railstutorial.org/"
   link2: "https://www.michaelhartl.com/"
