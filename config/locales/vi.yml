@@ -5,48 +5,61 @@ vi:
   footer:
     para1: "The Ruby on Rails Tutorial"
     para2: "by Michael Hartl"
-    para3: "News"
+    para3: "Tin tức"
+  
+  form:
+    name: "Tên"
+    email: "Email"
+    pass: "Mật khẩu"
+    config: "Xác nhận"
+    submit: "Tạo tài khoản mới"
 
   static_page:
     home:
-      title: "Trang chu"
+      title: "Trang chủ"
       para1: "Sample App"
-      para2: "This is the home page for the"
-      para3: "sample application."
-      para4: "Sign up now!"
+      para2: "đây là trang chủ của chương trình"
+      para3: "Sample."
+      para4: "Đăng ký ngay!"
       link1: "Ruby on Rails Tutorial" 
     about:
-      title: "Ve chung toi"
+      title: "Về chúng tôi"
       para1: "The"
       para2: ", part of the"
-      para3: "family of tutorials, is a"
-      para4: " and"
-      para5: "to teach web development with"
-      para6: "This is the sample app for the tutorial."
+      para3: "gia đình của tutorials, là"
+      para4: " và"
+      para5: "dạy phát triển web với"
+      para6: "Đây là sample app của the tutorial."
       link1: "Ruby on Rails Tutorial"
       link2: "Learn Enough"
-      link3: "book"
-      link4: "screencast series"
+      link3: "sách"
+      link4: "tuyển tập screencast"
       link5: "Ruby on Rails"
     
     help:
-      title: "Tro giup"  
-      para1: "Get help on the Ruby on Rails Tutorial at the"
-      para2: "To get help on this sample app, see the"
-      para3: "book."
-      link1: "Rails Tutorial Help page."
+      title: "Trợ giúp"  
+      para1: "Nhận sự trợ giúp về Ruby on Rails Tutorial tại"
+      para2: "Để hiểu hơn về sample app, hãy đọc"
+      para3: "quyển sách này."
+      link1: "Trợ giúp Rails Tutorial."
       link2: "Ruby on Rails Tutorial"
       
     contact: 
-      title: "Lien he"
-      para1: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      para2: "contact page"
+      title: "Liên hệ"
+      para1: "Liên hệ Ruby on Rails Tutorial về sample app tại"
+      para2: "liên hệ page"
 
     login:
       para1: "Log in"
+
     user:
-      title: "User"
-      para1: "Find me in app/views/users/new.html.erb"
+      title: "Đăng ký"
+      para1: "Đăng ký"
+      welcome: "Chào mừng tới Sample App!"
+      error_noti: "Form này"
+      undefine: "Không tìm thấy"
+      errors:
+        other: " bạn có %{count} lỗi"
       
-    english: "English"
-    vietnamese: "Vietnamese" 
+    english: "Tiếng anh"
+    vietnamese: "Tiếng Việt" 
