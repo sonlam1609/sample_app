@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.reg.email
+  USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
   before_save :email_down
   validates :name, presence: true, length: { maximum: Settings.reg.maxname }
   validates :email, format: { with: VALID_EMAIL_REGEX },

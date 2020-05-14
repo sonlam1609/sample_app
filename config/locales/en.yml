@@ -1,4 +1,4 @@
-en:
+en: 
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
 
@@ -7,6 +7,13 @@ en:
     para2: "by Michael Hartl"
     para3: "News"
 
+  form:
+    name: "Name"
+    email: "Email"
+    pass: "Password"
+    config: "Confirmation"
+    submit: "Create my account"
+    
   static_page:
     home:
       title: "Home"
@@ -47,8 +54,13 @@ en:
       para1: "Log in"
 
     user:
-      title: "User"
-      para1: "Find me in app/views/users/new.html.erb"
+      title: "Sign Up"
+      para1: "Sign Up"
+      welcome: "Welcome to the Sample App!"
+      error_noti: "The form contains"
+      undefine: "undefine user"
+      errors:
+        other: " you have %{count} notifications"
     
     english: "English"
     vietnamese: "Vietnamese"
