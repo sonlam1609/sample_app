@@ -1,4 +1,15 @@
 vi:
+  Profile: "Cá nhân"
+  Settings: "Cài đặt"
+  logout: "Đăng xuất"
+  login: "Đăng nhập"
+  Account: "Tài khoản"
+
+  session: 
+    title: "Đăng Nhập"
+    new: "thành viên mới?"
+    now: "Đăng ký ngay!"
+    
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
 
