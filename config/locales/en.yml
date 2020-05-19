@@ -1,4 +1,14 @@
 en: 
+  Profile: "Profile"
+  Settings: "Settings"
+  logout: "Log out"
+  login: "Log in"
+  Account: "Account"
+  session: 
+    title: "Log in"
+    new: "new_user?"
+    now: "Sign Up Now!"
+
   helper:
     base_title: "Ruby on Rails Tutorial Sample App"
 
