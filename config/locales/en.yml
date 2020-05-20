@@ -3,7 +3,8 @@ en:
   Settings: "Settings"
   logout: "Log out"
   login: "Log in"
-  Account: "Account"
+  account: "Account"
+  
   session: 
     title: "Log in"
     new: "new_user?"
