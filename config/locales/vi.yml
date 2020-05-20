@@ -3,7 +3,7 @@ vi:
   Settings: "Cài đặt"
   logout: "Đăng xuất"
   login: "Đăng nhập"
-  Account: "Tài khoản"
+  account: "Tài khoản"
 
   session: 
     title: "Đăng Nhập"
