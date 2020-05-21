@@ -1,4 +1,6 @@
 en: 
+  remember: "Remember me on this computer"
+  noti: "Invalid email/password combination"
   Profile: "Profile"
   Settings: "Settings"
   logout: "Log out"

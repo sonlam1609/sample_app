@@ -1,4 +1,6 @@
 vi:
+  remember: "Hãy nhớ tôi"
+  noti: "Email hoặc mật khẩu không xác nhận"
   Profile: "Cá nhân"
   Settings: "Cài đặt"
   logout: "Đăng xuất"
