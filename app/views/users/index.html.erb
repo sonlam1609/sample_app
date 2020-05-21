@@ -1,0 +1,10 @@
+<%= provide :title, t("all") %>
+<h1><%= t "all" %></h1>
+
+<%= paginate @users, theme: Settings.boots %>
+
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%= paginate @users, theme: Settings.boots %>

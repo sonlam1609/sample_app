@@ -6,6 +6,8 @@ vi:
   logout: "Đăng xuất"
   login: "Đăng nhập"
   account: "Tài khoản"
+  all: "Tất cả người dùng"
+  change: "Thay đổi"
 
   session: 
     title: "Đăng Nhập"
@@ -73,6 +75,16 @@ vi:
       undefine: "Không tìm thấy"
       errors:
         other: " bạn có %{count} lỗi"
+      profile: "Thông tin đã được cập nhật"
+      pls: "Hãy đăng nhập"
+      deleted: "Đã xóa người dùng"
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+    edit: 
+      title: "Chỉnh xửa user"
+      welcome: "Cập nhật thông tin cá nhân"
+      create: "Tạo tài khoản"
+      save: "Lưu thay đổi"
       
     english: "Tiếng anh"
     vietnamese: "Tiếng Việt" 

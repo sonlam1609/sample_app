@@ -17,7 +17,7 @@ class User < ApplicationRecord
       BCrypt::Password.create string, cost: cost
     end
 
-    def new_token
+    def new_token 
       SecureRandom.urlsafe_base64
     end
   end
@@ -39,4 +39,5 @@ class User < ApplicationRecord
 
   def email_down 
     email.downcase!
+  end
 end
