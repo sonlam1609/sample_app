@@ -4,6 +4,12 @@ reg:
   maxemail: 255
   minipass: 6
 
+per_pages: 10
+avata_size: 50
+boots: "twitter-bootstrap-3"
+
+change: "http://gravatar.com/emails"
+
 client:
   host: "localhost:3000"
 

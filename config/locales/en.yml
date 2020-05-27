@@ -6,7 +6,9 @@ en:
   logout: "Log out"
   login: "Log in"
   account: "Account"
-  
+  all: "All users"
+  change: "Change"
+
   session: 
     title: "Log in"
     new: "new_user?"
@@ -74,6 +76,16 @@ en:
       undefine: "undefine user"
       errors:
         other: " you have %{count} notifications"
+      profile: "Profile updated"
+      pls: "Please log in."
+      deleted: "User deleted"
+      delete: "delete"
+      confirm: "You sure?"
+    edit: 
+      title: "Edit user"
+      welcome: "Update your profile"
+      create: "Create my account"
+      save: "Save changes"
     
     english: "English"
     vietnamese: "Vietnamese"
