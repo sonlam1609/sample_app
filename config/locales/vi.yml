@@ -1,4 +1,15 @@
 vi:
+  acc: 
+    success: "Tài khoản được kích hoạt!"
+    dan: "Link không hợp lệ"
+  mailer:
+    hi: "Xin chào"
+    wel: "Chào mừng đến với Sample App, click link bên dưới để kích hoạt tài khoản"
+    title: "Kiểm tra email để kích hoạt tài khoản."
+    title_mess: "Tài khoản chưa kích hoạt. Kiểm tra email để kích hoạt"
+    subject: "Kích hoạt tài khoản"
+    activate: "Kích hoạt"
+
   remember: "Hãy nhớ tôi"
   noti: "Email hoặc mật khẩu không xác nhận"
   Profile: "Cá nhân"

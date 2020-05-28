@@ -1,4 +1,15 @@
 en: 
+  acc: 
+    success: "Account activated!"
+    dan: "Invalid activation link"
+  mailer:
+    hi: "Hi"
+    wel: "Welcome to the Sample App! Click on the link below to activate your account:"
+    title: "Please check your email to activate your account."
+    title_mess: "Account not activated. Check your email for the activation link."
+    subject: "Account activation"
+    activate: "Activate"
+
   remember: "Remember me on this computer"
   noti: "Invalid email/password combination"
   Profile: "Profile"
