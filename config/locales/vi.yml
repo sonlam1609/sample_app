@@ -1,4 +1,21 @@
 vi:
+  password:
+    title: "Quên mật khâủ"
+    submit: "Submit"
+    title_reset: "Cài lại password"
+    info: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+    danger: "Email không tìm thấy"
+    update: "Cập nhật password"
+    click_link: "Để cài lại password tủy cập link bên dứoi"
+    expire: "This link will expire in two hours.If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    pass_reset: "Password reset"
+    expire_time: "This link will expire in two hours."
+    not_repass: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    confirm: "Confirmation"
+
+  forgot:
+    pass: "(forgot password)"
+    
   acc: 
     success: "Tài khoản được kích hoạt!"
     dan: "Link không hợp lệ"
@@ -9,6 +26,9 @@ vi:
     title_mess: "Tài khoản chưa kích hoạt. Kiểm tra email để kích hoạt"
     subject: "Kích hoạt tài khoản"
     activate: "Kích hoạt"
+    password_error: "Error password"
+    successful_reset: "successful reset"
+    password_failed: "password failed"
 
   remember: "Hãy nhớ tôi"
   noti: "Email hoặc mật khẩu không xác nhận"

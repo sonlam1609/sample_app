@@ -1,4 +1,21 @@
 en: 
+  password:
+    title: "Forgot password"
+    submit: "Submit"
+    title_reset: "Reset password"
+    info: "Email sent with password reset instructions"
+    danger: "Email address not found"
+    update: "Update password"
+    click_link: "To reset your password click the link below:"
+    expire: "This link will expire in two hours.If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    pass_reset: "Password reset"
+    expire_time: "This link will expire in two hours."
+    not_repass: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+    confirm: "Confirmation"
+
+  forgot:
+    pass: "(forgot password)"
+
   acc: 
     success: "Account activated!"
     dan: "Invalid activation link"
@@ -9,6 +26,9 @@ en:
     title_mess: "Account not activated. Check your email for the activation link."
     subject: "Account activation"
     activate: "Activate"
+    password_error: "Error password"
+    successful_reset: "successful reset"
+    password_failed: "password failed"
 
   remember: "Remember me on this computer"
   noti: "Invalid email/password combination"
