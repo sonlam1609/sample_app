@@ -1,4 +1,26 @@
 en: 
+  flash: 
+    login: "Please log in."
+    micropost_created: "Micropost created!"
+  
+  micro:
+    profile: "view my profile"
+    micro: "micropost"
+    compose: "Compose new micropost..."
+    post: "Post"
+    error: "error"
+    micro_feed: "Micropost Feed"
+    posted: "Posted"
+    ago: "ago."
+    delete: "delete"
+    sure: "You sure?"
+    destroy_success: "Micropost deleted"
+    destroy_danger: "Micropost deleted failed"
+
+  img:
+    content: "must be a valid image format"
+    size: "should be less than 5MB"
+
   password:
     title: "Forgot password"
     submit: "Submit"
