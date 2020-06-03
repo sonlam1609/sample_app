@@ -1,4 +1,27 @@
 vi:
+  flash: 
+    login: "Hãy đăng nhập."
+    micropost_created: "Bài đăng được tạo!"
+    micropost_!created: "Bài đăng không được tạo!"
+  
+  micro:
+    profile: "xem thông tin cá nhân"
+    micro: "Bài đăng"
+    compose: "Soạn bài mới..."
+    post: "Bài đăng"
+    error: "Lỗi"
+    micro_feed: "Micropost Feed"
+    posted: "Ảnh"
+    ago: "trước."
+    delete: "xóa"
+    sure: "Bạn chắc chứ?"
+    destroy_success: "Micropost đã xóa"
+    destroy_danger: "Micropost thất bại"
+
+  img:
+    content: "must be a valid image format"
+    size: "should be less than 5MB"
+    
   password:
     title: "Quên mật khâủ"
     submit: "Submit"

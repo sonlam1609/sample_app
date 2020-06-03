@@ -1,5 +1,6 @@
 Rails.application.configure do
 
+  config.active_storage.service = :local
   config.cache_classes = false
   config.eager_load = false
   config.consider_all_requests_local = true

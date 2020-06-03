@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
 
   VALID_EMAIL_REGEX = Settings.reg.email
@@ -23,6 +24,10 @@ class User < ApplicationRecord
     def new_token 
       SecureRandom.urlsafe_base64
     end
+  end
+  
+  def feed
+    microposts
   end
 
   def create_reset_digest
