@@ -1,4 +1,11 @@
-en: 
+en:
+  relationships:
+    following: "Following"
+    followers: "Followers"
+    micro: "Micropost:"
+    follow: "Follow"
+    unfollow: "Unfollow"
+
   flash: 
     login: "Please log in."
     micropost_created: "Micropost created!"
