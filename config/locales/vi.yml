@@ -1,4 +1,11 @@
 vi:
+  relationships:
+    following: "Following"
+    followers: "Followers"
+    micro: "Micropost:"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    
   flash: 
     login: "Hãy đăng nhập."
     micropost_created: "Bài đăng được tạo!"
